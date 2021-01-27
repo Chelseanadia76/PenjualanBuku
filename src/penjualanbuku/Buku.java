@@ -1,7 +1,7 @@
 
 package penjualanbuku;
 
-import com.mysql.jdbc.Connection;
+import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -9,6 +9,10 @@ import javax.swing.JOptionPane;
 
 public class Buku extends javax.swing.JFrame {
     private static Connection kon;
+
+    private static Connection getConnection() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public Buku() {
         initComponents();
